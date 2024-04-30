@@ -1,0 +1,452 @@
+body
+{
+    font-family: "Raleway", sans-serif;
+overflow-x: 0px;
+}
+/* link section start----------------- */
+
+.link
+{
+    background: #212121;
+    height: 45px;
+    
+}
+
+.example ,.number
+{
+    font-family: "Open Sans", sans-serif;
+    text-decoration: none;
+    font-size: 14px;
+    color: rgba(229, 229, 229, 0.6);
+}
+.example:hover
+{
+    color: rgba(255, 255, 255, 0.6);
+}
+.number:hover
+{
+  
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.icon1
+{
+    color: #cc1616;
+    
+    margin-right: 5px;
+}
+
+.icon2
+{
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.6);
+    margin-left: 3px;
+    margin-right: 20px;
+}
+.mail-num,.icons
+{
+    padding-top: 10px;
+}
+/* link section end----------------- */
+
+/* navbar start here---------- */
+#full-navbar
+{
+    /* background-image: url('../img/header-bg.jpg'); */
+    background: linear-gradient(rgba(7, 7, 7, 0.8),rgba(0, 0, 0,0)),url('../img/header-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 700px;
+    background-size: cover;
+    position: relative;
+    
+}
+.navbar-brand
+{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+}
+.navbar-brand:hover
+{
+    color: rgb(217, 217, 217);
+}   
+.nav-link
+{
+    color:rgb(255, 255, 255);
+    margin-left: 20px;
+    font-size: 15px;
+}
+.nav-link:hover
+{
+    color: rgb(217, 217, 217); 
+    background-color: #cc1616; 
+}
+.main-container
+{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 5px;
+}
+/* navbar end here---------- */
+
+/* welcome start here---------- */
+.welcome
+{
+    margin-top: 165px;
+    padding-left: 100px;
+    display: none;
+}
+.welcomefirst
+{
+    font-size: 50px;
+    font-weight: 900;
+}
+.welcomesecond
+{
+    font-size: 40px;
+   
+}
+.welcome-button
+{
+    margin-top: 60px;
+}
+.get-start
+{
+    text-decoration: none;
+    padding: 10px 25px 10px 25px;
+    border-radius: 5px;
+    color: white;
+    font-weight:800;
+   border: 5px solid white; 
+}
+.get-start:hover
+{
+    background-color: #cc1616; 
+    color: white;
+    border:5px solid #cc1616;
+}
+/* welcome end here---------- */
+
+
+
+/* service advice start-------------- */
+.first-service-advice
+{
+    display: none;
+}
+.service-advice-headline
+{
+    font-weight: 700;
+}
+.service-advice-icon
+{
+    list-style-type: none;
+}
+.icon3
+{
+    color: #cc1616;
+    margin-right: 5px;
+    margin-left: -25px;
+    margin-bottom: 10px;
+}
+.service-advice-img
+{
+    max-width: 100%;
+    height: auto;
+}
+/* service advice end-------------- */
+
+/* service-advice-list start-------------------- */
+.service-advice-list-card
+{
+    padding: 20px 20px 20px 20px;
+    margin-bottom: 5px;
+}
+.service-advice-list-card:hover
+{
+    background-color: #cc1616;
+    color: white;
+}
+
+/* service-advice-list end-------------------- */
+
+/* useful links start----------------- */
+.useful-links
+{
+    background-color: rgb(235, 235, 235);
+}
+.useful-links-img1
+{
+    max-width: 100%;
+    height: 50px;
+}
+/* useful links end----------------- */
+
+/* services start here----------------- */
+.service-heading-name,.service-icon-name
+{
+    font-weight: 700;
+}
+.service-icon1
+{
+    background-color: #cc1616;
+    padding: 20px;
+    font-size: 25px;
+    color: white;
+    border-radius: 5px;
+    border: 2px solid rgb(255, 255, 255);
+    margin-bottom: 10px;
+}
+.service-info-full:hover
+{
+    color: white;
+    background-color: #cc1616;
+
+}
+
+/* services end here----------------- */
+
+/* action start here------------------- */
+.action
+{
+    background: linear-gradient(rgba(7, 7, 7, 0.9),rgba(0, 0, 0,0.5)),url('../img/action-img.jpg'); 
+    background-position: center;
+    background-size: cover;
+}
+.action-header
+{
+    font-weight: 700;
+}
+.action-info
+{
+    color: white;
+    display: none;
+}
+.action-button
+{
+    border: 3px solid white;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+}
+.action-button:hover
+{
+   background-color: #cc1616;
+   border: #cc1616;
+   color: white;
+}
+/* action end here------------------- */
+
+
+/* portfolio start here----------------------- */
+
+
+
+.portfolio-header-name
+{
+    font-weight: 700;
+}
+.portfolio-link1
+{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    border-radius: 5px;
+    background-color: #cc1616;
+    padding: 5px;
+    border: none;
+
+}
+.portfolio-link1:hover
+{
+    color: white;
+}
+
+.portfolio-img1
+{
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin:5px;
+    margin-bottom:15px;
+}
+/* portfolio end here----------------------- */
+
+
+/* pricing start--------------------------- */
+.pricing
+{
+    background-color: rgb(243, 243, 243);
+}
+.pricing-header-name
+{
+    font-weight: 700;
+}
+.pricing-type
+{
+    font-weight: 500;
+}
+.pricing-button
+{
+    text-decoration: none;
+    background-color: #cc1616;
+    color: white;
+    padding: 5px 10px 5px 10px;
+}
+.pricing-button:hover
+{
+   
+    color: white;
+    
+}
+.pricing-button2
+{
+    text-decoration: none;
+    background-color: #ffffff;
+    color: #cc1616;
+    padding: 5px 10px 5px 10px;
+}
+.pricing-button2:hover
+{
+
+    color: #cc1616;
+    
+}
+.middile-card
+{
+    background-color: #cc1616;
+    color: white;
+}
+/* pricing end--------------------------- */
+
+/* team start here------------------- */
+.team-header-name
+{
+    font-weight: 700;
+}
+.team-img1
+{
+    max-width: 60%;
+    border-radius: 50%;
+    margin: 20px 20px 20px 70px;
+}
+.team-img-name
+{
+    font-weight: 700;
+    color: #cc1616;
+}
+
+.team-img-detail
+{
+    font-family: "Open Sans", sans-serif;
+}
+.team-icon1
+{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: rgb(54, 54, 54);
+}
+.team-icon1:hover
+{
+   
+    color: rgb(255, 255, 255);
+    background-color:#cc1616;
+    padding: 5px;
+}
+/* team end here------------------- */
+
+/* contact start--------------------------- */
+.contact-header-name
+{
+    font-weight: 700;
+}
+.contact-icon1
+{
+    font-size: 20px;
+    color: #ffffff;
+    border-radius: 100%;
+    padding: 10px 13px 10px 13px;
+    border: 2px dotted  #cc1616;;
+    color: #cc1616;
+}
+.contact-icon2
+{
+    font-size: 20px;
+    color: #ffffff;
+    border-radius: 100%;
+    padding: 10px 10px 10px 10px;
+    border: 2px dotted  #cc1616;;
+    color: #cc1616;
+}
+.contact-address
+{
+    font-weight: 700;
+}
+.contact-address-detail
+{
+    font-family: "Open Sans", sans-serif;
+}
+.sign-button
+{
+    background-color: #cc1616;
+    color: white;
+}
+.sign-button:hover
+{
+   border: 1px solid #cc1616;
+}
+/* contact end--------------------------- */
+
+/* footer start----------------------- */
+.footer
+{
+    background: #0c0c0c;
+    color: #fff;
+    font-size: 14px;
+}
+.footer-header-name
+{
+    font-weight: 700;
+    color: #cc1616;
+}
+.footer-link1
+{
+    color:white;
+    border-radius: 100%;
+    padding: 7px;
+    background-color: #cc1616;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.footer-header-detail
+{
+    font-family: "Open Sans", sans-serif;
+}
+.footer-box
+{
+
+box-shadow: 0 0 10px 5px #cc1616; ;
+}
+.useful-link-icon
+{
+    list-style-type: none;
+}
+.useful-link-icon1
+{
+    color:#cc1616;
+}
+.email
+{
+    padding: 10px 25px 10px 25px;
+}
+.submit
+{
+    padding: 10px 15px 10px 15px;
+    color: white;
+    background-color: #cc1616;
+}
+/* footer end----------------------- */
